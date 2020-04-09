@@ -54,18 +54,18 @@ body, html
 /* JUMBOTRON */
 .jumbotron {
 	height: 300px;
-	background: url(images/jumbotron.jpg);
+	/*background: url(images/jumbotron.jpg);*/
 	background-size: cover;
-	/*background: transparent;*/
+	background: transparent;
 	/*box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); */
 	/*color: black;*/
 }
 
 .j-span {
 	font-size: 30px;
-	margin-top: -20px;
-	color: black;
-	text-shadow: 1px 2px 3px white;
+	/*margin-top: -20px;*/
+	/*color: black;*/
+	/*text-shadow: 1px 2px 3px white;*/
 	padding: 0 20px 50px;
 	text-align: center;
 	display: block;
@@ -80,7 +80,7 @@ img.img-jumbotron{
 	width: 300px;
 	margin: 0 auto;
 	border-radius: 20px;
-	border: 2px solid #14abbd;
+	/*border: 2px solid #14abbd;*/
 	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
@@ -101,7 +101,7 @@ img.img-jumbotron{
 	color: black;
 }
 
-.card-arrival i {
+/*.card-arrival i {
 	font-size: 30px;
 	margin-top: -10px;
 	margin-left: -5px;
@@ -113,8 +113,7 @@ img.img-jumbotron{
 
 .about-me p {
 	font-size: 12px;
-
-}
+}*/
 
 /* content */
 .content {
