@@ -1,0 +1,507 @@
+/*@font-face
+{
+  font-family: Hemi Head Rg;
+  src: url('fontawesome/webfont/fa-solid-900.ttf'); 
+}*/
+
+body, html
+{
+	/*background-size: cover;*/
+    /*font-family: Hemi Head Rg;*/
+	/*background: url(images/bg.jpg);*/
+	/*background-repeat: no-repeat;*/
+	background: black;
+	color: white;
+}
+
+/*.coverBG {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+}
+*/
+/* ----- mobile ----- */
+
+/* NAVBAR */
+.navbar {
+	/*color: white!important;
+	width: 100%;*/
+	z-index: 100;
+}
+
+.navbar-toggler {
+	border: none;
+}
+
+.bg-dark {
+	background: white!important;
+	color: white!important;
+}
+
+.logo-mobile {
+	display: none;
+	margin: 0;
+}
+
+.keranjang {
+	display: none;
+}
+
+.nav-link {
+	margin: 0 auto;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+	height: 300px;
+	background: url(images/jumbotron.jpg);
+	background-size: cover;
+	/*background: transparent;*/
+	/*box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); */
+	/*color: black;*/
+}
+
+.j-span {
+	font-size: 30px;
+	margin-top: -20px;
+	color: black;
+	text-shadow: 1px 2px 3px white;
+	padding: 0 20px 50px;
+	text-align: center;
+	display: block;
+}
+
+.j-span p {
+	font-size: 18px;
+}
+
+img.img-jumbotron{
+	display: block;
+	width: 300px;
+	margin: 0 auto;
+	border-radius: 20px;
+	border: 2px solid #14abbd;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.info {
+	display: none;
+}
+
+/* SOCIAL */
+.social {
+	display: none;
+}
+
+/* ARRIVAL */
+.card-arrival {
+	margin: 300px auto 50px;
+	max-width: 230px;
+	max-height: 80px;
+	color: black;
+}
+
+.card-arrival i {
+	font-size: 30px;
+	margin-top: -10px;
+	margin-left: -5px;
+}
+
+.about-me {
+	margin-top: -5px;
+}
+
+.about-me p {
+	font-size: 12px;
+
+}
+
+/* content */
+.content {
+    margin: 100px auto 0;
+}
+
+h4.ui-design {
+	font-size: 20px;
+	color: white;
+	text-align: center;
+}
+
+img.img-content {
+    width: 420px;
+    margin: 10px auto;
+    border: 3px solid #14abbd;
+    border-radius: 12px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.txtc {
+	padding: 20px 30px;
+	box-sizing: border-box;
+}
+
+.txtc h4,
+.ui-design {
+	text-align: center;
+	font-weight: 100;
+	font-size: 25px;
+}
+
+/* gallery */
+.gallery {
+	margin-top: 50px;
+	display: flex;
+	align-items: center;
+}
+
+.gallery h4 {
+	font-size: 20px;
+	font-weight: 100;
+	margin: 20px auto;
+	box-sizing: border-box;
+}
+
+.gallery-body {
+	background: transparent;
+	margin: 0 20px;
+    border: 3px solid #14abbd;
+	border-radius: 10px;
+}
+
+.card-gallery img {
+	width: 350px;
+	margin: 30px auto;
+	display: flex;
+	align-items: center;
+	border-radius: 5px;
+}
+
+/* footer */
+.footer {
+    background: #343a40;
+    color: white;
+    padding: 10px 20px 10px;
+}
+
+.footer-header {
+    font-size: 19px;
+    color: grey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p.footer-body {
+    margin: 10px 0;
+}
+
+.copyright {
+    background: #212529;
+    color: grey;
+    padding: 10px 0;
+}
+
+.copyright p {
+    margin: 0;
+}
+
+.copyright span {
+    color: whitesmoke;
+}
+
+
+/* PINDAHAN */
+/* PINDAHAN */
+/* PINDAHAN */
+/* PINDAHAN */
+/* PINDAHAN */
+/* PINDAHAN */
+/* PINDAHAN */
+
+
+@media (min-width: 1200px){
+	body, html
+	{
+		background-size: 100%;
+	}
+
+	.navbar {
+		position: relative;
+		z-index: 99;
+		background: transparent;
+		margin: 20px 0;
+		text-transform: uppercase;
+	}
+
+	.bg-dark {
+		background: transparent!important;
+	}
+
+	.navbarkyu {
+		display: none;
+	}
+
+	.keranjang {
+		display: block;
+	}
+
+	.logo-mobile {
+		display: block;
+		margin: 0 50px;
+	}
+
+	.logo-mobile img {
+		width: 30px;
+
+	}
+
+	.nav-link {
+		margin: 0 50px;
+	}
+
+	/* jumbotron */
+	.jumbotron {
+		width: 100%;
+		height: 850px;
+		background: url(images/jumbotron.jpg);
+		/*background-repeat: no-repeat;*/
+		/*background-size: cover;*/
+		margin-top: -130px;
+		box-shadow: none;
+		/*color: white;*/
+		position: relative;
+		z-index: 1;
+		color: black;
+	}
+
+	img.img-jumbotron{
+		position: absolute;
+		width: 500px;
+		top: 90px;
+		right: 15px;
+		border-radius: 12px;
+		display: block;
+		border: 3px solid #14abbd;
+	}
+
+	.j-span {
+	    margin-top: 80px;
+		font-size: 50px;
+		text-align: left;
+		padding: 0;
+	}
+
+	.j-span p {
+		font-size: 30px;
+	}
+
+	.j-span span,
+	.j-span p,
+	.j-span a {
+		margin-left: 30px;
+	}
+
+	/* social */
+	.social {
+		/*background-color: rgba(0, 0, 0, 0.5);*/
+		background-color: transparent;
+		border-radius: 10px;
+		margin-top: 300px;
+		/*margin-left: 30px;*/
+		font-size: 20px;
+		font-weight: 100;
+		display: block;
+		/*padding: 8px 20px;
+		box-sizing: border-box;*/
+	}
+
+	.social a {
+		color: white;	
+		margin: 0;
+	}
+
+	.social a:hover {
+		text-decoration-line: none;
+		color: whitesmoke;
+	}
+
+	.social .fab {
+		color: white!important;
+	}
+
+	.info {
+		display: block;
+		color: white;
+		text-align: right;
+		margin: 50px 0;
+		padding-right: 550px;
+		padding-left: 100px;
+	}
+
+	/* card */
+	.card-arrival {
+		display: none;
+		height: 70px;
+		margin: -130px auto 0;
+		max-width: 200px;
+		max-height: 100px;
+		position: relative;
+		z-index: 3;
+		color: black;
+	}
+
+	.card-arrival i {
+		font-size: 25px;
+		margin: 0px;
+	}
+
+	.card-arrival span {
+	    font-size: 20px;
+	    font-weight: 300;
+	    font-family: unset;
+	}
+
+	.about-me {
+		margin-top: 0;
+	}
+
+	.about-me p {
+		font-size: 15px;
+	}
+
+	/* UI */
+	.ui {
+		margin-top: 100px;
+	}
+
+	.table-ui {
+		border-radius: 12px!important;
+		background: transparent!important;
+		border: 3px solid #14abbd;
+	}
+
+	/* content */
+	.content {
+	    margin-top: 100px;
+	}
+
+	h4.ui-design {
+		font-size: 26px;
+		color: white;
+		text-align: left;
+		background: transparent;
+		padding:0px;
+		border-radius: 0px;
+		border: none;
+	}
+
+	img.img-content {
+	    width: 600px;
+	    margin-top: 10px;
+	    border: 3px solid #14abbd;
+	    border-radius: 12px;
+	    position: relative;
+		box-shadow: none;
+		/*box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);*/
+	}
+
+	.txtc {
+		background-color: transparent;
+		box-shadow: none;
+		color: white;
+		/*background-color: rgba(255, 255, 255, 0.8);*/
+		/*box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);*/
+		padding: 20px 30px;
+		margin: 50px 0;
+		box-sizing: border-box;
+		border-radius: 12px;
+	}
+
+	.txtc h4,
+	.ui-design {
+		text-align: left;
+		font-weight: 100;
+		font-size: 30px;
+	}
+
+	/* gallery */
+	.gallery {
+		/*box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);*/
+		max-width: 250px;
+		padding: 10px 0px;
+		margin: 80px auto -10px;
+		border-radius: 8px!important;
+		border: 3px solid #14abbd;
+
+		/* center */
+		display: flex;
+		justify-content: center;
+		box-shadow: none;
+	}
+
+	.gallery h4 {
+		font-size: 26px;
+		font-weight: 100;
+		color: white;
+
+	}
+
+	.gallery-body {
+		background: black;
+		box-shadow: none;
+		position: relative;
+		z-index: 5;
+		/*box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);*/
+		/*background-color: rgba(20, 171, 189, 0.2);*/
+		color: black;
+		padding: 30px 20px 20px;
+		box-sizing: border-box;
+		border-radius: 10px;
+		border: 3px solid #14abbd;
+	}
+
+	.card-gallery img {
+		max-width: 250px;
+		border-radius: 5px;
+	}
+
+	/*.carousel-inner img {
+		border-radius: 10px;
+	}
+
+	.media img {
+		width: 450px;
+		border-radius: 5px;
+	}*/
+
+	/* footer */
+	.footer {
+	    background: #343a40;
+	    color: white;
+	    padding: 30px 30px 10px;
+	}
+
+	.footer-header {
+	    font-size: 19px;
+	    color: grey;
+	    margin-bottom: 20px;
+	}
+
+	p.footer-body {
+	    margin: 10px 0;
+	}
+
+	.copyright {
+	    background: #212529;
+	    color: grey;
+	    padding: 10px 0;
+	}
+
+	.copyright p {
+	    margin: 0;
+	}
+
+}
+
+.modal {
+	color: black;
+}
