@@ -12,32 +12,30 @@
     <!-- my css -->
 	<link rel="stylesheet" href="style.css" />
 	<!-- shortcut icon -->
-	<!-- <link href="images/header.png" type="images/x-icon" rel="shortcut icon"> -->
+	<link href="images/brand.png" type="images/x-icon" rel="shortcut icon">
 
      <title>Jar | WEB Desaigner</title>
   </head>
   <body>
-  <div class="coverBG"></div><!-- End of coverBG -->
+
 	<!-- Navbar -->
 	<nav class="navbar nav-vector navbar-expand-md navbar-dark">
 		<div class="container">
 			<button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-				<!-- <span class="navbar-toggler-icon navbar-light"></span> -->
 				<i class="fas fa-bars"></i>
 			</button>
 			<a href="#" class="navbar-brand navbarkyu">
-				<!-- <span>JAR</span> -->
-				<img src="images/brand.png" style="width: 30px;">
+				<img src="images/jar.png" style="width: 30px;">
 			</a>
 			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 				<div class="navbar-nav ml-auto mr-auto">
-					<a href="#web" class="nav-item nav-link">WEB Design</a>
+					<a href="#arrival" class="nav-item nav-link">New Arrival</a>
 					<a href="#gallery" class="nav-item nav-link">Gallery</a>
 					<a href="#" class="nav-link active logo-mobile">
-						<img src="images/brand.png">
+						<img src="images/jar.png">
 					</a>
-					<a href="" data-toggle="modal" data-target="#modalInfo" class="nav-item nav-link">About Me</a>
 					<a href="#contact" class="nav-item nav-link">Contact</a>
+					<a href="#about" data-toggle="modal" data-target="#modal" class="nav-item nav-link">About</a>
 				</div>
 				<!-- <div class="navbar-nav mr-0 keranjang">
 					<a href="pesan.html" class="btn btn-dark active">
@@ -49,27 +47,38 @@
 	</nav>
 	<!-- end Navbar -->
 
+  	<!-- disclaimer -->
+  	<div class="disclaimer my-5">
+  		<div class="container">
+  			<h1 class="display-4">
+	  			Mohon maaf sekali, untuk tampilan dengan resolusi ini belum tersedia jadi silahkan rubah resolusi anda ke resolusi Handphone anda untuk sementara. Terima kasih atas pengertiannya
+	  		</h1>
+			<h4 class="mt-5">dbyjar<i class="fa fa-heart ml-3"></i></h4>
+  		</div>
+  	</div>
+
 	<!-- Jumbotron -->
 	<div class="jumbotron jumbotron-fluid">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6 display-4 j-span">
-					<span>Jar WEB Desaigner</span><br>
-					<p>Yass welcome to my web portfolio, for all information please check my contacts on footer ya</p>
-					<a href="#web" class="nav-item btn btn-primary">Explore</a>
-				</div>
 				<div class="col-md-6">
 					<img src="images/dp 916.jpg" alt="New Arrivals" class="img-jumbotron">
+				</div>
+				<div class="col-md-6 j-span">
+					<span>Jar WEB Designer</span><br>
+					<p>Saya adalah Fajar Al Hakim (dbyjar) yang sekarang masih sebagai mahasiswa aktif tingkat akhir di Perguruan Tinggi Swasta yaitu Universitas Pamulang Jurusuan Teknik Informatika, dan kesibukan saya itu me- Design (Logo, Brand, etc), Web Designer, dan Programmer.</p>
+					<a href="#web" class="nav-item btn btn-primary">Explore</a>
 				</div>
 				<div class="social col-md-6">
 					<div class="col">
 						<a href="http://instagram.com/fjarlhkm/"><i class="fab fa-fw fa-instagram mr-2"></i>Instagram
-						<a href="http://dribbble.com/dbyjar/" class="mx-5">
+						<a href="http://dribbble.com/dbyjar/">
 							<i class="fab fa-fw fa-dribbble mr-2"></i>Dribbble</a>
 						</a>
 						<a href="http://github.com/dbyjar/"><i class="fab fa-fw fa-github mr-2"></i>Github</a>
 					</div>
 				</div>
+				<a href="#web" class="nav-item btn-sm btn-primary">Explore</a>
 				<div class="info col-md-12">
 					<h5>Fajar Al Hakim</h5>
 					<p>As a Web Desaigner and Programmer</p>
@@ -80,39 +89,28 @@
 	<!-- akhir Jumbotron -->
 
 	<!-- Card -->
-	<div class="card bg-light card-arrival">
-		<div class="card-body text-center">
-			<!-- <div class="about-me"> -->
-			<div>
-				<span><b><i>#DIRUMAHAJA</i></b></span>
-				<!-- <p>STAY AT HOME</p> -->
-			</div>
-			<!-- <div class="col-3 my-auto">
-				<a href="" data-toggle="modal" data-target="#modalInfo">
-					<i class="fas fa-chevron-circle-right"></i>
-				</a>
-			</div> -->
-		</div>
+	<div class="quote">
+		<center>
+			<span><b><i>#DIRUMAHAJA</i></b></span>
+		</center>
 	</div>
 	<!-- akhir Card -->
 
-	<!-- UI Design -->
-	
-	<!-- akhir UI Design -->
-
 	<!-- Content -->
-	<div class="container">
-		<div class="row content">
+	<div class="row content" id="arrival">
+		<div class="container">
 			<div class="col-md-7" id="web">
-				<h4 class="ui-design">
-					<i class="fas fa-pen mr-3"></i>WEB Design
-				</h4>
+				<h3 class="ui-design">New Arrival</h3>
+				<span><i class="fas fa-pen mr-3"></i>WEB Design</span>
 				<img src="images/post-demo-skripsi.jpg" class="img-content img-fluid">
 			</div>
 			<div class="col-md-5">
-				<div class="txtc">
-					<h4>Demo Desain Web Skripsi</h4>
-					<p>Yaaa,, pokoknya gitu lah, belom jadi masih panjang perjalanannya itu kan baru desain landing page aja. k</p>
+				<h4 class="mt-3">Desain Web Skripsi</h4>
+				<p>Desain ini sebenernya saya buat dari <i>screenshot</i> Aplikasi Web Tugas Akhir saya tentang Web Sistem Informasi Interaktif menggunakan <i>Chatbot</i>. Dimana saya menggunakan beberapa <i>Framework</i> atau <i>Third Party Apps</i> (Aplikasi pihak ketiga) yaitu CSS : Bootstrap, PHP : CodeIgniter, ChatBot : Google DialogFlow, dan masih banyak yang lainnya pasti.</p>
+				<div class="desc">
+					<a href="http://dribbble.com/dbyjar">
+						See on My Dribbble
+					</a>
 				</div>
 			</div>
 		</div>
@@ -121,45 +119,104 @@
 
 	<!-- Gallery JAR -->
 	<div class="gallery" id="gallery">
-	<!-- <div class="ui-design" id="gallery"> -->
-		<h4><i class="fas fa-magic mr-3"></i>My Gallery</h4>
+		<div class="container">
+			<h3 class="ui-design">Gallery</h3>
+		</div>
 	</div>
-	<div class="container">
-		<div class="gallery-body row">
+	<div class="gallery-body row">
+		<div class="container">
 			<div class="card-gallery col-md-3 col-sm-6 my-auto">
 				<img src="images/Untitled-1.jpg" class="img-fluid">
-				<!-- <span>Fanart JDindaaa</span> -->
+				<div class="desc">
+					<span>Official Web of Faith Law Story Clothing</span>
+					<a href="http://dbyjar.github.io/fls-clothing/">
+						http://dbyjar.github.io/fls-clothing/
+					</a>
+				</div>
 			</div>
 			<div class="card-gallery col-md-3 col-sm-6 my-auto">
 				<img src="images/Hasilgw.jpg" class="img-fluid">
-				<!-- <span>Fanart JDindaaa</span> -->
+				<div class="desc">
+					<span>Design Web Landing Portfolio of Jar</span>
+					<!-- <a href="http://dbyjar.github.io/fls-clothing/">
+						http://dbyjar.github.io/fls-clothing/
+					</a> -->
+				</div>
 			</div>
 			<div class="card-gallery col-md-3 col-sm-6 my-auto">
 				<img src="images/Capture.JPG" class="img-fluid">
-				<!-- <span>Fanart JDindaaa</span> -->
+				<div class="desc">
+					<span>Design Web of My Wordpress WooCommerce</span>
+					<!-- <a href="http://dbyjar.github.io/fls-clothing/">
+						http://dbyjar.github.io/fls-clothing/
+					</a> -->
+				</div>
+			</div>
+			<div class="card-gallery col-md-3 col-sm-6 mt-3 mb-2">
+				<p>Galeri disini maksudnya adalah desain atau projek saya yang akhir-akhir ini saya buat, cuma ada tiga setiap yang ada di post galeri ini dari terakhir saya buat. Akan terus diupdate jika suatu saat atau waktu saya sudah menyelesaikan desain atau projek baru.</p>
 			</div>
 		</div>
 	</div>
 	<!-- akhir Gallery JAR -->
 
-	<!-- Code -->
-	<div class="">
-		
+	<!-- About -->
+	<div class="about" id="about">
+		<div class="container">
+			<h3 class="ui-design">About</h3>
+		</div>
 	</div>
-	<!-- akhir Code -->
+	<div class="about-body">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 my-3">
+					<span><i class="fas fa-pen mr-3"></i>Skills</span>
+					<div class="text-center">
+						<h6 class="mt-3">Design</h6>
+						<p>Adobe Photoshop</p>
+						<p>Adobe Illustrator</p>
+						<p>Adobe After Effect</p>
+						<p>Corel Draw</p>
+						<h6 class="mt-3">Language or Framework</h6>
+						<p>HTML</p>
+						<p>CSS</p>
+						<p>Java Script</p>
+						<p>PHP, MySQL</p>
+						<p>Boostrap</p>
+						<p>CodeIgniter</p>
+						<p>Vue JS</p>
+					</div>
+				</div>
+				<div class="col-md-6 my-3">
+					<span><i class="fas fa-pen mr-3"></i>Weapons</span>
+					<div class="text-center">
+						<h6 class="mt-3">Laptop</h6>
+						<p>Lenovo Thinkpad dengan spesifikasi Intel(R) Core(TM)2 Duo CPU L9300 @ 1.60GHz, RAM 2.00 GB, 32-bit Operating System (<i>punya sodara</i>)</p>
+						<h6 class="mt-3">Apps</h6>
+						<p>Sublime Text</p>
+						<p>Visual Studio Code</p>
+						<p>XAMPP</p>
+						<p>Google Chrome</p>
+						<p>Git Bash</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- akhir About -->
 
 	<!-- Footer -->
 	<footer class="footer mt-5">
     <div class="container-fluid row">
     	<div class="col-md-4">
-      	<h5 class="footer-header">Weapons</h5>
+      	<h5 class="footer-header">Built</h5>
       	<p class="footer-body">HTML, CSS, & JS</p>
       	<p class="footer-body">Sublime Text</p>
       	<p class="footer-body">Google Chrome</p>
       	<p class="footer-body">Bootstrap</p>
       	<p class="footer-body">Font Awesome</p>
       	<p class="footer-body">Musics</p>
-      	<p class="footer-body">Some Food</p>
+      	<p class="footer-body">Some Foods</p>
+      	<p class="footer-body">Ayangggs <i class="fa fa-heart mx-2"></i> "halu"</p>
       	<!-- <p class="footer-body">Code Igniter</p> -->
       </div>
       <div class="col-md-4">
@@ -176,19 +233,26 @@
       <div class="col-md-4" id="contact">
       	<h5 class="footer-header">Contact</h5>
       	<p class="footer-body">
-      		<i class="fab fa-fw fa-instagram mr-2"></i>fjarlhkm</p>
+      		<a href="http://instagram.com/fjarlhkm/">
+	      		<i class="fab fa-fw fa-instagram mr-2"></i>fjarlhkm</p>
+      		</a>
       	<p class="footer-body">
-      		<i class="fab fa-fw fa-dribbble mr-2"></i>dbyjar</p>
+      		<a href="http://dribbble.com/dbyjar/">
+	      		<i class="fab fa-fw fa-dribbble mr-2"></i>dbyjar</p>
+      		</a>
       	<p class="footer-body">
-      		<i class="fab fa-fw fa-github mr-2"></i>dbyjar</p>
+      		<a href="http://github.com/dbyjar/">
+	      		<i class="fab fa-fw fa-github mr-2"></i>dbyjar</p>
+      		</a>
       	<p class="footer-body">
-      		<i class="fab fa-fw fa-youtube mr-2"></i>Fajar Al Hakim</p>
+      		<a href="http://bit.ly/subrekgratis/">
+	      		<i class="fab fa-fw fa-youtube mr-2"></i>Fajar Al Hakim</p>
+      		</a>
       </div>
     </div>
   </footer>
   <div class="copyright text-center col-md-12">
-    <p>"Yaudah guys gitu aja dulu lah yaa, maaf banyak kurangnya sama bahasanya campur aduk gini ehe" :)</p>
-    	<span> &copy; dbyjar, All Reserved.</span>
+    <p>Powered by <a href="">dbyjar</a> Made with <i class="fa fa-heart"></i> by <a href="">Fajar Al Hakim</a></p>
   </div>
 	<!-- akhir Footer -->
 
@@ -203,8 +267,7 @@
 					</button>
 				</div>
 					<div class="modal-body">
-						<span>Fajar AlHakim</span><br>
-						<img src="images/info.png" class="img-fluid" style="max-width: 400px; margin: 10px auto;">
+						<img src="images/info.png" class="img-fluid">
 					</div>
 					<div class="modal-footer">
 						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -216,7 +279,7 @@
 
 	<!-- Button toTop -->
 	<button id="toTop" class="btn btn-secondary">
-		<i class="fa fa-chevron-circle-up mr-2"></i>Back to Top
+		<i class="fa fa-chevron-circle-up"></i>
 	</button>
 	<style type="text/css">
 		#toTop {

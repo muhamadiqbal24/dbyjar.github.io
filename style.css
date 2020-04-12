@@ -1,31 +1,19 @@
-/*@font-face
-{
-  font-family: Hemi Head Rg;
-  src: url('fontawesome/webfont/fa-solid-900.ttf'); 
-}*/
-
 body, html
 {
-	/*background-size: cover;*/
-    /*font-family: Hemi Head Rg;*/
-	/*background: url(images/bg.jpg);*/
-	/*background-repeat: no-repeat;*/
 	background: black;
 	color: white;
+	overflow-x: hidden;
 }
 
-/*.coverBG {
-	position: fixed;
-	width: 100%;
-	height: 100%;
+/* DISCLAIMER */
+.disclaimer {
+	display: none;
 }
-*/
-/* ----- mobile ----- */
 
-/* NAVBAR */
+/*//////////////////////////////////////////////////////////////////// NAVBAR */
 .navbar {
-	/*color: white!important;
-	width: 100%;*/
+	color: white!important;
+	width: 100%;
 	z-index: 100;
 }
 
@@ -33,97 +21,93 @@ body, html
 	border: none;
 }
 
-.bg-dark {
-	background: white!important;
-	color: white!important;
-}
-
-.logo-mobile {
-	display: none;
-	margin: 0;
-}
-
-.keranjang {
-	display: none;
-}
-
 .nav-link {
 	margin: 0 auto;
 }
 
-/* JUMBOTRON */
+.logo-mobile {
+	display: none;
+}
+
+/*///////////////////////////////////////////////////////////////////// JUMBOTRON */
 .jumbotron {
-	height: 300px;
-	/*background: url(images/jumbotron.jpg);*/
-	background-size: cover;
+	padding: 0 1.5em;
 	background: transparent;
-	/*box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); */
-	/*color: black;*/
+}
+
+.jumbotron .btn-sm {
+	margin-top: -15px;
 }
 
 .j-span {
-	font-size: 30px;
-	/*margin-top: -20px;*/
-	/*color: black;*/
-	/*text-shadow: 1px 2px 3px white;*/
-	padding: 0 20px 50px;
-	text-align: center;
+	font-size: 26px;
+	padding: 0;
 	display: block;
 }
 
 .j-span p {
-	font-size: 18px;
+	font-size: 14px;
 }
 
 img.img-jumbotron{
 	display: block;
-	width: 300px;
+	width: 200px;
 	margin: 0 auto;
-	border-radius: 20px;
-	/*border: 2px solid #14abbd;*/
-	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.j-span .btn {
+	display: none!important;
 }
 
 .info {
 	display: none;
 }
 
-/* SOCIAL */
-.social {
-	display: none;
+.social.col-md-6 {
+	margin-bottom: 30px;
+	padding: 0!important;
 }
 
-/* ARRIVAL */
-.card-arrival {
-	margin: 300px auto 50px;
-	max-width: 230px;
-	max-height: 80px;
-	color: black;
+.social .col {
+    padding: 0;
 }
 
-/*.card-arrival i {
-	font-size: 30px;
-	margin-top: -10px;
-	margin-left: -5px;
-}
-
-.about-me {
-	margin-top: -5px;
-}
-
-.about-me p {
+.social a {
+	color: white;
 	font-size: 12px;
-}*/
+	margin-right: 10px;
+}
 
-/* content */
+.social a:hover {
+	color: grey;
+}
+
+/*//////////////////////////////////////////////////////////////////////// CARD */
+.quote {
+	margin-top: 75px;
+	background: whitesmoke;
+	color: black;
+	padding: 20px 0;
+}
+
+.quote span {
+	margin: 0 auto;
+}
+
+/*/////////////////////////////////////////////////////////////////////// CONTENT */
 .content {
     margin: 100px auto 0;
 }
 
-h4.ui-design {
-	font-size: 20px;
+.content p {
+	font-size: 14px;
+}
+
+h3.ui-design {
+	font-size: 29px;
+	font-weight: bold;
 	color: white;
-	text-align: center;
+	text-align: left;
 }
 
 img.img-content {
@@ -134,37 +118,24 @@ img.img-content {
 	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
-.txtc {
-	padding: 20px 30px;
-	box-sizing: border-box;
-}
-
-.txtc h4,
-.ui-design {
-	text-align: center;
-	font-weight: 100;
-	font-size: 25px;
-}
-
-/* gallery */
+/*/////////////////////////////////////////////////////////////////////// GALLERY */
 .gallery {
 	margin-top: 50px;
-	display: flex;
-	align-items: center;
 }
 
-.gallery h4 {
-	font-size: 20px;
-	font-weight: 100;
-	margin: 20px auto;
-	box-sizing: border-box;
+.gallery h3.ui-design {
+	margin: 0 15px 20px;
 }
 
 .gallery-body {
-	background: transparent;
-	margin: 0 20px;
-    border: 3px solid #14abbd;
-	border-radius: 10px;
+	background: whitesmoke;
+	margin-bottom: 100px;
+}
+
+.gallery-body p {
+	color: black;
+	margin-bottom: 20px;
+	font-size: 12px;
 }
 
 .card-gallery img {
@@ -175,7 +146,28 @@ img.img-content {
 	border-radius: 5px;
 }
 
-/* footer */
+.desc {
+	margin-top: -15px!important;
+}
+
+.desc span {
+	color: black;
+}
+
+.desc a {
+	font-size: 12px;
+}
+
+/*//////////////////////////////////////////////////////////////////////// ABOUT */
+.about-body p {
+	margin: 0;
+}
+
+#toTop {
+	/*width: 70%;*/
+}
+
+/*//////////////////////////////////////////////////////////////////////// FOOTER */
 .footer {
     background: #343a40;
     color: white;
@@ -189,8 +181,13 @@ img.img-content {
     margin-bottom: 20px;
 }
 
+.footer-body a {
+	color: white;
+}
+
 p.footer-body {
     margin: 10px 0;
+    font-size: 14px;
 }
 
 .copyright {
@@ -201,10 +198,11 @@ p.footer-body {
 
 .copyright p {
     margin: 0;
+    font-size: 12px;
 }
 
-.copyright span {
-    color: whitesmoke;
+.copyright a {
+	color: cyan;
 }
 
 
@@ -218,9 +216,9 @@ p.footer-body {
 
 
 @media (min-width: 1200px){
-	body, html
-	{
-		background-size: 100%;
+
+	.disclaimer {
+		display: block;
 	}
 
 	.navbar {
@@ -231,16 +229,8 @@ p.footer-body {
 		text-transform: uppercase;
 	}
 
-	.bg-dark {
-		background: transparent!important;
-	}
-
 	.navbarkyu {
 		display: none;
-	}
-
-	.keranjang {
-		display: block;
 	}
 
 	.logo-mobile {
@@ -250,243 +240,57 @@ p.footer-body {
 
 	.logo-mobile img {
 		width: 30px;
-
 	}
 
 	.nav-link {
 		margin: 0 50px;
 	}
 
-	/* jumbotron */
+	/*///////////////////////////////////////////// JUMBOTRON */
 	.jumbotron {
-		width: 100%;
-		height: 850px;
-		background: url(images/jumbotron.jpg);
-		/*background-repeat: no-repeat;*/
-		/*background-size: cover;*/
-		margin-top: -130px;
-		box-shadow: none;
-		/*color: white;*/
-		position: relative;
-		z-index: 1;
-		color: black;
+		display: none;
 	}
 
-	img.img-jumbotron{
-		position: absolute;
-		width: 500px;
-		top: 90px;
-		right: 15px;
-		border-radius: 12px;
-		display: block;
-		border: 3px solid #14abbd;
-	}
-
-	.j-span {
-	    margin-top: 80px;
-		font-size: 50px;
-		text-align: left;
-		padding: 0;
-	}
-
-	.j-span p {
-		font-size: 30px;
-	}
-
-	.j-span span,
-	.j-span p,
-	.j-span a {
-		margin-left: 30px;
-	}
-
-	/* social */
+	/*//////////////////////////////////////////// SOCIAL */
 	.social {
-		/*background-color: rgba(0, 0, 0, 0.5);*/
-		background-color: transparent;
-		border-radius: 10px;
-		margin-top: 300px;
-		/*margin-left: 30px;*/
-		font-size: 20px;
-		font-weight: 100;
-		display: block;
-		/*padding: 8px 20px;
-		box-sizing: border-box;*/
+		display: none;
 	}
 
-	.social a {
-		color: white;	
-		margin: 0;
-	}
-
-	.social a:hover {
-		text-decoration-line: none;
-		color: whitesmoke;
-	}
-
-	.social .fab {
-		color: white!important;
-	}
-
-	.info {
-		display: block;
-		color: white;
-		text-align: right;
-		margin: 50px 0;
-		padding-right: 550px;
-		padding-left: 100px;
-	}
-
-	/* card */
+	/*///////////////////////////////////////////// CARD */
 	.card-arrival {
 		display: none;
-		height: 70px;
-		margin: -130px auto 0;
-		max-width: 200px;
-		max-height: 100px;
-		position: relative;
-		z-index: 3;
-		color: black;
 	}
 
-	.card-arrival i {
-		font-size: 25px;
-		margin: 0px;
+	.quote {
+		display: none;
 	}
 
-	.card-arrival span {
-	    font-size: 20px;
-	    font-weight: 300;
-	    font-family: unset;
-	}
-
-	.about-me {
-		margin-top: 0;
-	}
-
-	.about-me p {
-		font-size: 15px;
-	}
-
-	/* UI */
-	.ui {
-		margin-top: 100px;
-	}
-
-	.table-ui {
-		border-radius: 12px!important;
-		background: transparent!important;
-		border: 3px solid #14abbd;
-	}
-
-	/* content */
+	/*//////////////////////////////////////////// CONTENT */
 	.content {
-	    margin-top: 100px;
+		display: none;
 	}
 
-	h4.ui-design {
-		font-size: 26px;
-		color: white;
-		text-align: left;
-		background: transparent;
-		padding:0px;
-		border-radius: 0px;
-		border: none;
-	}
-
-	img.img-content {
-	    width: 600px;
-	    margin-top: 10px;
-	    border: 3px solid #14abbd;
-	    border-radius: 12px;
-	    position: relative;
-		box-shadow: none;
-		/*box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);*/
-	}
-
-	.txtc {
-		background-color: transparent;
-		box-shadow: none;
-		color: white;
-		/*background-color: rgba(255, 255, 255, 0.8);*/
-		/*box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);*/
-		padding: 20px 30px;
-		margin: 50px 0;
-		box-sizing: border-box;
-		border-radius: 12px;
-	}
-
-	.txtc h4,
-	.ui-design {
-		text-align: left;
-		font-weight: 100;
-		font-size: 30px;
-	}
-
-	/* gallery */
+	/*///////////////////////////////////////////// GALLERY */
 	.gallery {
-		/*box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);*/
-		max-width: 250px;
-		padding: 10px 0px;
-		margin: 80px auto -10px;
-		border-radius: 8px!important;
-		border: 3px solid #14abbd;
-
-		/* center */
-		display: flex;
-		justify-content: center;
-		box-shadow: none;
-	}
-
-	.gallery h4 {
-		font-size: 26px;
-		font-weight: 100;
-		color: white;
-
+		display: none;
 	}
 
 	.gallery-body {
-		background: black;
-		box-shadow: none;
-		position: relative;
-		z-index: 5;
-		/*box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);*/
-		/*background-color: rgba(20, 171, 189, 0.2);*/
-		color: black;
-		padding: 30px 20px 20px;
-		box-sizing: border-box;
-		border-radius: 10px;
-		border: 3px solid #14abbd;
+		display: none;
 	}
 
-	.card-gallery img {
-		max-width: 250px;
-		border-radius: 5px;
+	/*///////////////////////////////////////////////// ABOUT*/
+	.about {
+		display: none;
 	}
 
-	/*.carousel-inner img {
-		border-radius: 10px;
+	.about-body {
+		display: none;
 	}
 
-	.media img {
-		width: 450px;
-		border-radius: 5px;
-	}*/
-
-	/* footer */
+	/*/////////////////////////////////////////////// FOOTER */
 	.footer {
-	    background: #343a40;
-	    color: white;
-	    padding: 30px 30px 10px;
-	}
-
-	.footer-header {
-	    font-size: 19px;
-	    color: grey;
-	    margin-bottom: 20px;
-	}
-
-	p.footer-body {
-	    margin: 10px 0;
+		display: none;
 	}
 
 	.copyright {
