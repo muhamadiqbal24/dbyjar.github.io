@@ -129,12 +129,12 @@ img.img-content {
 
 .gallery-body {
 	background: whitesmoke;
-	margin-bottom: 100px;
+	/*margin-bottom: 100px;*/
 }
 
 .gallery-body p {
 	color: black;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 	font-size: 12px;
 }
 
@@ -159,6 +159,14 @@ img.img-content {
 }
 
 /*//////////////////////////////////////////////////////////////////////// ABOUT */
+.about {
+	display: none;
+}
+
+.about-body {
+	display: none;
+}
+
 .about-body p {
 	margin: 0;
 }
@@ -172,6 +180,7 @@ img.img-content {
     background: #343a40;
     color: white;
     padding: 10px 20px 10px;
+    margin: 0!important;
 }
 
 .footer-header {
@@ -188,6 +197,10 @@ img.img-content {
 p.footer-body {
     margin: 10px 0;
     font-size: 14px;
+}
+
+.footer img {
+	width: 100px;
 }
 
 .copyright {
@@ -215,7 +228,7 @@ p.footer-body {
 /* PINDAHAN */
 
 
-@media (min-width: 1200px){
+@media (min-width: 576px){
 
 	.disclaimer {
 		display: block;
