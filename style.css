@@ -1,6 +1,7 @@
 body, html
 {
 	background: black;
+	font-family: 'Open Sans', sans-serif;
 	color: white;
 	overflow-x: hidden;
 }
@@ -20,6 +21,19 @@ body, html
 .navbar-toggler {
 	border: none;
 }
+
+.nav-item {
+	color: white!important;
+	/*padding: 10px 30px!important;*/
+	/*border-radius: 25px;*/
+	transition: .3s ease-out;
+	border-bottom: 1px solid transparent;
+}
+
+/*.nav-item:hover {
+	border-bottom: 1px solid white;
+	color: black!important;
+}*/
 
 .nav-link {
 	margin: 0 auto;
@@ -96,6 +110,7 @@ img.img-jumbotron{
 
 .quote span {
 	margin: 0 auto;
+	font-weight: bold!important;
 }
 
 /*/////////////////////////////////////////////////////////////////////// CONTENT */
@@ -239,7 +254,7 @@ p.footer-body {
 	}
 
 	.disclaimer {
-		display: block;
+		/*display: block;*/
 	}
 
 	.mobile {
@@ -258,27 +273,32 @@ p.footer-body {
 		display: none;
 	}
 
-	.logo-mobile {
-		display: block;
-		margin: 0 50px;
-	}
-
-	.logo-mobile img {
-		width: 30px;
+	.nav-item {
+		display: none;
 	}
 
 	.nav-link {
 		margin: 0 50px;
 	}
 
+	.logo-mobile {
+		display: block;
+		margin: 0 2em;
+	}
+
+	.logo-mobile img {
+		width: 4em;
+	}
+
 	/*///////////////////////////////////////////// JUMBOTRON */
 	.jumbotron {
-		display: none;
+		/*display: none;*/
 		height: 100vh!important;
 		text-align: center;
-		background: url(images/zzzzz.jpg);
+		background: url(images/Header.jpg);
 		background-size: cover;
-		margin-top: -110px;
+		margin-top: -140px;
+		margin-bottom: 0;
 	}
 
 	.jumbotron .typedH1 {
@@ -343,7 +363,13 @@ p.footer-body {
 	}
 
 	.quote {
-		display: none;
+		margin: 0;
+		/*display: none;*/
+	}
+
+	.quote span {
+		font-weight: bold!important;
+
 	}
 
 	/*//////////////////////////////////////////// CONTENT */
